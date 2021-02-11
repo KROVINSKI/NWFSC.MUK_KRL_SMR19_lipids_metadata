@@ -12,7 +12,13 @@ devtools::install_git("https://github.com/pmcelhany/metacsv")
 setwd("/Users/katherinerovinski/GIT/NWFSC.MUK_KRL_SMR19_lipids_metadata")
 
 lipids1 <- read_xlsx(File="SHALIN PREVIEW_020621.xlsx")
-lipids1 <- 1+2
+
+
+# krill_lipid_2020_withMeta - krill_lipid_2020_withMeta.csv
+
+
+
+
 
 #  
 # 

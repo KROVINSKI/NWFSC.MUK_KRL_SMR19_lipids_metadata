@@ -1,0 +1,87 @@
+*metacsv_format_file*,,,,,,,,,,,,,
+dataset_name,2019 Summer Krill Lipid Results ,,,,,,,,,,,,
+source_file_name,SHALIN PREVIEW_020621.xlsx,,,,,,,,,,,,
+project_name,2019 Summer Krill Exposure Cross Study,,,,,,,,,,,,
+description,Lipid Results from Louise Copeland Lab,,,,,,,,,,,,
+keywords,sample per lab mass,,,,,,,,,,,,
+data_source,Louise Copeland Lab,do we include our own vial determination file?,https://drive.google.com/file/d/13-XtXOOVXsjqdAQ018ZOEgbGVMIHsei1/view?usp=sharing,Summer_Krill_2019_VialNumbers_for_BlindAnalysis.xlsx,,,,,,,,,
+r_script_source,https://github.com/KROVINSKI/NWFSC.MUK_KRL_SMR19_lipids_metadata.git,this is my link- but maybe we should have Paul's,,,,,,,,,,,
+file_creation_date,2021.02.08,,,,,,,,,,,,
+last_modified_date,2021.02.09,,,,,,,,,,,,
+version_number,1,,,,,,,,,,,,
+version_history,transposed 2021.02.09,,,,,,,,,,,,
+editor_name_history,"Copeland, McElhany",,,,,,,,,,,,
+data_collection_start_date,2019.10.28,,,,,,,,,,,,
+data_collection_end_date,2019.10.30,,,,,,,,,,,,
+data_collection_location,"802 Front Street Mukilteo, WA 98275 Krill collection and prep | lipid Analysis (address needed for OR)",location of OR lab,,,,,,,,,,,
+data_entered_by,"Copeland, McElhany",,,,,,,,,,,,
+data_contributor,"Copeland, McElhany",,,,,,,,,,,,
+data_owner,McElhany,,,,,,,,,,,,
+data_point_of_contact,Paul McElhany | paul.mcelhany@noaa.gov,,,,,,,,,,,,
+archive_link,OAP archive placeholder,,,,,,,,,,,,
+how_to_cite,placeholder ,,,,,,,,,,,,
+acknowledgements,placeholder ,don't know how to call out and thank the Copeman lab,,,,,,,,,,,
+***,,,,,,,,,,,,,
+variable_name,variable_long_name,units,description,data_type,format,missing_value_indicator,instrument,variable_min,variable_max,,,,
+sample_id,Krill Vial Name ,5 letter character with exception of wild krill,can contain 3-7 krill ,character variable ,N/A,N/A,N/A,N/A,N/A,,,,
+moats,MOATs 01 thru 13 with exceptions,"""1"" , ""2"" , ""4"", ""5"", ""6"", ""7"", ""8"", ""10"", ""12"", ""13""",replicate atriculated aquarium used to deliver cross exposure study  ,character variable ,N/A,N/A,N/A,N/A,N/A,,,,
+treatment_system,"MOATs number, wild, or ""Test Sample"" to explain Ambient Condtion vials",character string,character string,character string,character string,N/A,N/A,N/A,N/A,,,,
+hours_fasting,number of hours krill we deprived of food inputs,whole intergers,scalar ,numeric ,numeric ,N/A,N/A,26,42,,,,
+nwfsc_mass,grams of krill biomass,grams,grams of biomass,numeric ,numeric ,N/A,MettlerAE240 scale,0.0925,0.21,,,,
+lipid_lab_mass,grams of thawed krill (biomass),grams,grams per krill after thawing at the Copeman lab,numeric ,numeric ,N/A,Copeman (unk),0.0706,0.1653,,,,
+nwfsc_count,count of individual krill thought to be packed per vial,whole number,number,numeric ,numeric ,N/A,N/A,3,7,,,,
+lipid_lab_count,count of individual krill observed to have been packed per vial,whole number,number,numeric ,numeric ,N/A,N/A,3,6,,,,
+extract_vol,not sure what this is ,whole number,number,numeric ,numeric ,N/A,Copeman (unk),500,500,,,,
+tag_per_sample,not sure what this is ,grams,number,numeric ,numeric ,N/A,Copeman (unk),2977.85,414.775,,,,
+ffa_per_sample,not sure what this is ,grams,number,numeric ,numeric ,N/A,Copeman (unk),2977.85,414.775,,,,
+st_per_sample,not sure what this is ,grams,number,numeric ,numeric ,N/A,Copeman (unk),2977.85,414.775,,,,
+polar_lipids_per_sample,not sure what this is ,grams,number,numeric ,numeric ,N/A,Copeman (unk),2977.85,414.775,,,,
+total_fame,not sure what this is ,grams,number,numeric ,numeric ,N/A,Copeman (unk),2977.85,414.775,,,,
+###,,,,,,,,,,,,,
+sample_id,moats,treatment_system,hours_fasting,nwfsc_mass,lipid_lab_mass,nwfsc_count,lipid_lab_count,extract_vol,tag_per_sample,ffa_per_sample,st_per_sample,polar_lipids_per_sample,total_fame
+KRL-WLD-01-19,wild,wild,NA,0.1043,0.0787,2,2,500,414.775,109.1,66.9,762.6375,1015.059375
+KRL-WLD-02-19,wild,wild,NA,0.1245,0.0978,4,4,500,544.5375,84.65,93.625,1136.1375,1394.2125
+KRL-WLD-03-19,wild,wild,NA,0.1186,0.1008,3,3,500,1396.3375,93.75,110.85,1772.3875,2529.99375
+KRL-WLD-04-19,wild,wild,NA,0.1195,0.0936,4,4,500,1088.0625,111.9125,107.575,1716.6375,2268.140625
+M1301,13,13,26,0.114,0.0716,5,4,500,1599,191.7083333,135.1333333,1380.229167,2479.553125
+M1303,13,13,28,0.1076,0.0816,4,4,500,1599,191.7083333,135.1333333,1380.229167,2479.553125
+M1304,13,13,28,0.1225,0.0867,5,5,500,1699.825,138.8625,114.4375,1940.475,2920.2
+M1201,12,12,28,0.1021,0.109,4,4,500,2356.925,279.6,166.8625,2251.075,3790.846875
+M1202,12,12,26,0.1156,0.0862,4,4,500,1426.591667,148.4916667,123.6083333,1577.483333,2457.13125
+M1203,12,12,30,0.113,0.1049,4,4,500,1226.2375,181.8375,99.6125,1380.3875,2166.05625
+M1204,12,12,42,0.1082,0.0969,4,5,500,2015.4625,207.5875,164.375,2018.1125,3304.153125
+MTEN1,10,10,30,0.1339,0.1263,4,4,500,2758.7125,252.8625,296.05,3335.8375,4982.596875
+MTEN2,10,10,30,0.0925,0.0793,3,3,500,1607.25,171.025,137.0875,2015.2,2947.921875
+MTEN3,10,10,30,0.1028,0.0854,3,3,500,2315.725,172.6,142.825,1960.775,3443.94375
+MTEN4,10,10,30,0.1327,0.1113,4,4,500,1714.5125,177.8625,178.5,1839,2932.40625
+MTEN5,10,10,35,0.1369,0.0975,4,4,500,2620.9375,222.7625,188.0875,2757.8375,4342.21875
+MTEN6,10,10,35,0.1357,0.1094,7,6,500,2541.5625,280.3875,186.9375,2645.5875,4240.85625
+MTEN7,10,10,35,0.1054,0.0763,4,4,500,1665.2375,187.625,118.65,1739.4125,2783.19375
+MTEN8,10,10,35,0.1158,0.0966,3,3,500,2659.954167,118.9,210.425,2818.2625,4355.65625
+M8001,8,8,28,0.1924,0.1524,5,5,500,2476.7375,286.8625,315.175,3123.875,4651.9875
+M8002,8,8,42,0.1066,0.08,3,3,500,1800.879167,280.6083333,137.675,1730.65,2962.359375
+M8003,8,8,42,0.0946,0.0706,4,4,500,1239.1875,117.6125,99.9125,1211.275,2000.990625
+M8004,8,8,42,0.1197,0.0954,4,4,500,1365.066667,290.7375,136.4083333,1553.204167,2509.0625
+M7001,7,7,26,0.1403,0.1279,4,4,500,2252.2375,223.125,207.7375,2245.7,3696.6
+M7003,7,7,27,0.1364,0.106,4,4,500,1476.1125,249.3666667,156.6625,1615.079167,2622.915625
+M7004,7,7,27,0.1115,0.0883,4,4,500,1797.658333,192.2958333,144.5791667,1413.604167,2661.103125
+M7005,7,7,27,0.21,0.1555,4,4,500,2918.6875,326.7875,325.7625,3519.7,5318.203125
+M7006,7,7,34,0.106,0.0863,4,4,500,1136.5875,146.75,122.725,1534.9625,2205.76875
+M7007,7,7,34,0.1488,0.1228,5,5,500,1928.7375,206.8875,177.6875,1913.1875,3169.875
+M6001,6,6,28,0.1279,0.0924,5,5,500,2132.095833,191.5125,202.6166667,1743.920833,3202.609375
+M6002,6,6,28,0.1064,0.0798,3,3,500,2078.7375,165.625,139.95,1977.5,3271.359375
+M6003,6,6,24,0.106,0.1087,4,4,500,2026.0125,206.35,135.8625,1989.7125,3268.453125
+M6004,6,6,24,0.1005,0.1028,4,4,500,693.3125,125.725,123.9875,1291,1675.51875
+M2001,2,2,30,0.1741,0.1402,5,5,500,2695.125,399.075,227.975,2677.25,4499.56875
+M2002,2,2,26,0.1023,0.0774,3,3,500,660.7625,127.5,74.3875,929.4125,1344.046875
+M2003,2,2,26,0.1147,0.0804,3,3,500,1423.675,147.275,117.0875,1419.675,2330.784375
+M2004,2,2,26,0.1663,0.1653,6,6,500,2977.85,244.8875,332.5375,3500.95,5292.16875
+M1001,1,1,26,0.1131,0.0959,4,4,500,1685.9625,100.9625,139.3125,1859.225,2839.096875
+M1003,1,1,26,0.162,0.1186,4,4,500,2489.2125,219.075,257.2,3102.875,4551.271875
+M1004,1,1,26,0.1401,0.1166,4,4,500,1699.825,138.8625,114.4375,1940.475,2920.2
+M1009,1,1,30,0.1327,0.1074,4,4,500,2110.533333,214.1333333,217.0208333,2245.679167,3590.525
+M5001,5,TEST SAMPLE,30,0.1282,0.111,4,4,500,2072.875,273.7833333,222.7083333,2246.404167,3611.828125
+M5002,5,TEST SAMPLE,30,0.1117,0.0951,4,4,500,951.9125,82.4125,98.1375,899.4875,1523.9625
+M5003,5,TEST SAMPLE,30,0.1238,0.1138,4,4,500,2386.3,152.1125,206.5375,2481.875,3920.11875
+M4001,4,TEST SAMPLE,30,0.1204,0.1052,4,4,500,1968.7625,253.4625,210.425,2387.5375,3615.140625
+M4002,4,TEST SAMPLE,30,0.1371,0.0983,4,4,500,2019.875,165.6375,158.7625,2040.8375,3288.834375
